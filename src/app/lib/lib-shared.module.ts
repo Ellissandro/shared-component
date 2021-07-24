@@ -8,7 +8,7 @@ import { HeaderComponent } from './header/header.component';
     imports: [
         CommonModule,
     ],
-    exports: []
+    exports: [HeaderComponent]
 })
 
 export class LibSharedModule {}
